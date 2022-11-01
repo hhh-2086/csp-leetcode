@@ -14,3 +14,5 @@ https://blog.csdn.net/u011332271/article/details/105320697
 <!-- 取消http代理 -->
 git config --global --unset http.proxy//取消http代理
 git config --global --unset https.proxy//取消https代理 
+
+直接用vscode可以解决所有push问题
