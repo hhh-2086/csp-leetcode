@@ -17,3 +17,11 @@ git config --global --unset http.proxy//取消http代理
 git config --global --unset https.proxy//取消https代理 
 
 直接用vscode可以解决所有push问题
+git add -A  提交所有变化
+git add -u  提交被修改(modified)和被删除(deleted)文件，不包括新文件(new)
+git add .  提交新文件(new)和被修改(modified)文件，不包括被删除(deleted)文件
+
+因此在已经创建的git仓库中提交新文件的步骤为：
+git status 
+git add -A
+git commit -a -m"first commit"
